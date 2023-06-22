@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    font-family: 'Verdana', sans-serif;
+    background-color: rgba(198, 206, 207, 0.3);
+    border: solid 2px black;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+th {
+    padding: 5px;
+    text-align: center;
+    color: darkblue;
+    background-color: azure;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.test {
+    color: gray;
+}
+.test:hover{
+    background-color: gray;
+}

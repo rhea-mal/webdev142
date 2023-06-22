@@ -1,0 +1,25 @@
+@keyframes slide {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .new-font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(15, 100, 204);
+    font-size: large;
+    font-style: bold;
+  }
+
+  .new-font2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: large;
+    font-style: bold;
+  }

@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.stage {
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    width: 100%;
+}
+
+.box-dark {
+    text-align: left;
+    display: flex; 
+    width: 100px;
+    height: 150px;
+    min-width: 100px;
+    min-height: 150px;
+    background-color: #eeeff2;
+    border-left: dotted 10px #D0D0FF;
+    font-size: 40px;
+    font-family: Tahoma;
+    margin: 10px; 
+}
+.box-dark:hover {
+    background-color: yellow;
+    cursor: pointer;
+    color: goldenrod;
+}
+    
+.box-light {
+    text-align: left;
+    display: flex; 
+    width: 100px;
+    height: 150px;
+    min-width: 100px;
+    min-height: 150px;
+    border-left: dotted 10px #D0D0FF;
+    background-color: #eeeff2;
+    font-size: 40px;
+    font-family: Tahoma;
+    margin: 10px; 
+}
+.box-light:hover {
+    background-color: yellow;
+    cursor: pointer;
+    color: goldenrod;
+}
+    
+.box-final {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    text-align: left;
+    display: flex; 
+    width: 100px;
+    height: 150px;
+    min-width: 100px;
+    min-height: 150px;
+    background-color: #eeeff2;
+    border-left: dotted 10px #D0D0FF;
+    font-size: 40px;
+    font-family: Tahoma;
+    margin: 10px; 
+}
+.box-final:hover {
+    background-color: yellow;
+    cursor: pointer;
+    color: goldenrod;
+}
