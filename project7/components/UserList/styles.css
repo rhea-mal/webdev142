@@ -1,0 +1,12 @@
+.UserList {
+    padding: 20px;
+    background-color: rgb(123, 184, 225);
+  }
+  
+  .UserList li {
+    cursor: pointer;
+  }
+  
+  .UserList li:hover {
+    background-color: #e0e0e0;
+  }
